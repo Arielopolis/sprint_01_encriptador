@@ -326,16 +326,14 @@ footer{
     max-height: 20px;
     margin: 5px 5px 0px; 
 }
-#Idscrd{
-    max-height: 20px;
-    margin: 5px 5px 0px; 
-}
+
 #Igthb{
     max-height: 19px;
     margin: 5px 5px 0px; 
 }
 
 .copyright{
+    display: inline;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
