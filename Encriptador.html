@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleEnc.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1><img id= "logoAzul" src="Imágenes/logoAzul.png"></h1>                
+            </div>
+        </header>
+
+        <main>
+            <section class="campotexto">
+                <textarea type="text" class="ingtext" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="aclaracion">
+                    <img id= "simbexc" src="Imágenes/Simbol_exc.png">
+                    <h6>Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div id="botonesEncDes">
+                    <input type="button" onclick="btnencriptar()" id="Encriptar" value="Encriptar" >
+                    <input type="button" onclick="btndesencriptar()" id="Desencriptar"  value="Desencriptar">
+                </div>
+    
+            </section>      
+
+            <section>
+                <textarea type="text"class="resenc"></textarea>
+
+                <img id= "muneco" src="Imágenes/Muñeco.png">
+                <div id="leyenda">
+                    <p id="ningunMens">Ningún mensaje fue encontrado</p>
+                    <p id="ingreseText">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <input type="button" onclick="copiartexto()" id= "botonCopText" value="Copiar texto">
+
+            </section>  
+            
+        </main>
+
+        <footer>
+            <img id="logoGris" src="Imágenes/logoGris.png">
+            <img id="Ilkdn" src="Imágenes/Icono Lnkdn.png">
+            <img id="Igthb" src="Imágenes/Icono Gthb.png">
+            <img id="Idscrd" src="Imágenes/Icono Dscrd.png">
+            <p class="copyright">&copy Ariel Román Jacobi - 2022</p>
+        </footer>
+
+    </body>
+    <script src="scriptEnc.js"></script>
+</html>
+
+
